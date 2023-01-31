@@ -1,0 +1,15 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    height: 542px;
+    background-color: #495e57;
+}
+
+.header_container__text {
+    display: flex;
+    justify-content: center;
+}
+.header_container__image {
+    display: flex;
+    margin-right: 100px;
+}

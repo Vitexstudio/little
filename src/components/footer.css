@@ -1,0 +1,29 @@
+.footer_container {
+    display: flex;
+    height: 400px;
+    background-color: #d9d9d9;
+    
+}
+
+.footer_container__logo {
+    height: 200px;
+    background-color: white;
+    margin-top: 50px;
+    width: 25%;
+}
+
+.footer_container__social-media-links {
+    height: 200px;
+    background-color: white;
+    margin-top: 50px;
+    width: 25%;
+    margin-right: 25px;
+
+}
+.footer_container__contact-info {
+    height: 200px;
+    background-color: white;
+    margin: 50px auto;
+    width: 25%;
+    
+}
