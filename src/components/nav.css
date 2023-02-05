@@ -1,16 +1,26 @@
-.nav_container {
+.nav_container{
+    width: 1440px;
+    margin: auto;
+    padding: 40px;
+    /* border: solid red; */
+}
+
+
+.navbar {
     display: flex;
     justify-content: space-between;
     margin: auto;
     height: 100px;
-    margin-top: 10px;
-    margin-right: 40px;
+   
+    /* border: solid pink; */
+   
+    width: 900px;
     
 }
 .nav_container img {
     padding-left: 40px;
     height: 110px;
-    width: 250px;
+    width: 200px;
     
 }
 
@@ -28,6 +38,8 @@
     color: black;
     
 } 
+
+
 
 .nav_container__links a:hover {
     background-color: rgb(253, 248, 248);

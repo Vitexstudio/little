@@ -1,29 +1,130 @@
-.footer_container {
-    display: flex;
-    height: 400px;
+.footer_section {
     background-color: #d9d9d9;
+    width: 1440px;
+    margin: auto;
+    padding: 40px;
+    /* border: solid red; */
+    }
+
+.footer_container__navigation {
+    display: block;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+    /* border: solid blue; */
+}
+
+h2 {
+   padding: 0;
+   margin: 0;
+}
+
+.footer_content {
+    display: flex;
+
+}
+
+.footer_container {
+    display: grid;
+    height: auto;
+    margin:auto;
+    width: 900px;
+    font-weight: 500;
+    background-color: #d9d9d9;
+    /* border: solid;
+     */
+   
     
 }
 
 .footer_container__logo {
     height: 200px;
-    background-color: white;
-    margin-top: 50px;
+  
+    /* margin-top: 50px; */
     width: 25%;
 }
 
 .footer_container__social-media-links {
     height: 200px;
-    background-color: white;
-    margin-top: 50px;
+    
+    /* margin-top: 50px; */
     width: 25%;
     margin-right: 25px;
 
 }
 .footer_container__contact-info {
-    height: 200px;
-    background-color: white;
-    margin: 50px auto;
+    height: 100px;
+    margin: auto;
     width: 25%;
+    padding: 0px;
+    margin-top: 0;
+    /* border: solid; */
     
+    
+}
+.footer_container__contact-info p, h3 {
+    margin: 0;
+    padding: 0px;
+  
+}
+
+.footer_content h3{
+  margin-top: 0;
+  padding-top: 0;
+  top: 0;
+    
+}
+
+.footer_container__logo {
+   
+    height: 60px;
+}
+
+.footer_container__logo img {
+   
+    height: 60px;
+    background-color: none;
+    
+}
+
+.footer_content {
+   
+    padding: 0px;
+    height: 100px;
+    /* border: solid rgb(68, 255, 0); */
+    
+    /* border: solid; */
+}
+
+.social-media-icons {
+    display: flex;
+    padding-top: 10px;
+    
+   
+    
+}
+/* .social-media-icons img {
+    display: inline-block;
+    
+} */
+
+.footer_container__social-media-links img {
+    height: 18px;
+    margin-right: 10px;
+    
+    
+}
+
+.copyright-icon {
+    height: 8px;
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+}
+.text-span {
+    font-size: 12px;
+    margin-top: 0;
+   
+   
 }
